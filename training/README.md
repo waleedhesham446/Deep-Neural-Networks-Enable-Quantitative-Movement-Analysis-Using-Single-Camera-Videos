@@ -16,8 +16,8 @@ Use the following scripts for training and analyzing models. Files are listed in
 | split_ids.ipynb | Training, validation, testing split |
 | compute_SEMLS_residuals.ipynb | Builds simple models for SEMLS to control for demographics |
 | process_raw_videos.ipynb* | Additional processing of trajectories (missing data, smoothing, orientation) |
-| cnn_predict_doublesided_var.ipynb* | Models for variables that depend on the side (GDI, knee flexion at max extension) |
-| cnn_predict_singlesided_var.ipynb* | Models for variables that don't depend on the side (cadence, speed) |
+| tcn_predict_doublesided_var.ipynb* | Models for variables that depend on the side (GDI, knee flexion at max extension) |
+| tcn_predict_singlesided_var.ipynb* | Models for variables that don't depend on the side (cadence, speed) |
 | select_optimal_epoch.ipynb | Choose the best model based on validation error |
 | calculate_corr_rmse.ipynb | Get performance metrics for classification and regression tasks |
 | calculate_SEMLS_ROC.ipynb | Get performance metrics for the binary prediction task (SEMLS) |
